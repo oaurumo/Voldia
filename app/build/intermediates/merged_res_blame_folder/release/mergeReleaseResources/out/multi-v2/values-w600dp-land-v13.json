@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.oaurumo.voldia.app-mergeReleaseResources-29:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\andriod\\.gradle\\caches\\8.13\\transforms\\70ffdec5ae28ecbce78a5ca4c7adf07f\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

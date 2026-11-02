@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oaurumo.voldia"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" > <!-- Shizuku 库声明 minSdk 24，覆盖以兼容我们的 minSdk 23；API 23 上 Shizuku 不可用 -->
+6    <uses-sdk
+6-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:6:5-82
+7        android:minSdkVersion="23"
+8        android:targetSdkVersion="37" />
+9
+10    <!-- 悬浮窗 -->
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:9:5-78
+11-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:9:22-75
+12    <!-- 前台服务 -->
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:11:5-77
+13-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:11:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+14-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:12:5-89
+14-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:12:22-86
+15    <!-- 音量控制 -->
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:14:5-80
+16-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:14:22-77
+17    <!-- Android 13+ 通知 -->
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:16:5-77
+18-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:16:22-74
+19
+20    <permission
+20-->[androidx.core:core:1.13.1] E:\andriod\.gradle\caches\8.13\transforms\c503f5629b5af2be64a298d0c9313570\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+21        android:name="com.oaurumo.voldia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.1] E:\andriod\.gradle\caches\8.13\transforms\c503f5629b5af2be64a298d0c9313570\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.1] E:\andriod\.gradle\caches\8.13\transforms\c503f5629b5af2be64a298d0c9313570\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.oaurumo.voldia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.1] E:\andriod\.gradle\caches\8.13\transforms\c503f5629b5af2be64a298d0c9313570\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.1] E:\andriod\.gradle\caches\8.13\transforms\c503f5629b5af2be64a298d0c9313570\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+25    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+25-->[dev.rikka.shizuku:provider:13.1.5] E:\andriod\.gradle\caches\8.13\transforms\6acc1f10492a093adb49111ddfb90547\transformed\provider-13.1.5\AndroidManifest.xml:8:5-78
+25-->[dev.rikka.shizuku:provider:13.1.5] E:\andriod\.gradle\caches\8.13\transforms\6acc1f10492a093adb49111ddfb90547\transformed\provider-13.1.5\AndroidManifest.xml:8:22-75
+26
+27    <application
+27-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:18:5-67:19
+28        android:allowBackup="true"
+28-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:19:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.1] E:\andriod\.gradle\caches\8.13\transforms\c503f5629b5af2be64a298d0c9313570\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:20:9-43
+32        android:label="@string/app_name"
+32-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:21:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:22:9-54
+34        android:supportsRtl="true"
+34-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:23:9-35
+35        android:theme="@style/Theme.Voldia" >
+35-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:24:9-44
+36        <activity
+36-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:27:9-35:20
+37            android:name="com.oaurumo.voldia.MainActivity"
+37-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:28:13-41
+38            android:exported="true"
+38-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:29:13-36
+39            android:theme="@style/Theme.Voldia" >
+39-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:30:13-48
+40            <intent-filter>
+40-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:31:13-34:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:32:17-69
+41-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:32:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:33:17-77
+43-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:33:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <!-- 悬浮球与音量卡片 -->
+48        <service
+48-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:38:9-45:19
+49            android:name="com.oaurumo.voldia.FloatWindowService"
+49-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:39:13-47
+50            android:exported="false"
+50-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:40:13-37
+51            android:foregroundServiceType="specialUse" >
+51-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:41:13-55
+52            <property
+52-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:42:13-44:57
+53                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+53-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:43:17-76
+54                android:value="悬浮球与音量卡片，用于快速呼出系统音量面板" />
+54-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:44:17-54
+55        </service>
+56
+57        <!-- 快捷设置磁贴（Android 7.0+） -->
+58        <service
+58-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:48:9-58:19
+59            android:name="com.oaurumo.voldia.VolumeTileService"
+59-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:49:13-46
+60            android:exported="true"
+60-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:50:13-36
+61            android:icon="@drawable/ic_tile_volume"
+61-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:51:13-52
+62            android:label="@string/tile_label"
+62-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:52:13-47
+63            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+63-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:53:13-77
+64            <intent-filter>
+64-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:55:13-57:29
+65                <action android:name="android.service.quicksettings.action.QS_TILE" />
+65-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:56:17-87
+65-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:56:25-84
+66            </intent-filter>
+67        </service>
+68
+69        <!-- Shizuku Provider（必须 exported=true） -->
+70        <provider
+71            android:name="rikka.shizuku.ShizukuProvider"
+71-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:62:13-57
+72            android:authorities="com.oaurumo.voldia.shizuku"
+72-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:63:13-59
+73            android:exported="true"
+73-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:64:13-36
+74            android:multiprocess="false" />
+74-->E:\andriod\AndroidStudioProjects\Voldia\app\src\main\AndroidManifest.xml:65:13-41
+75        <provider
+75-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.oaurumo.voldia.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.3.0] E:\andriod\.gradle\caches\8.13\transforms\f9482accff6f4488c43fedbf4f7f6ed8\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.6.2] E:\andriod\.gradle\caches\8.13\transforms\e5afec46041432067ee7af1233e981d7\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.6.2] E:\andriod\.gradle\caches\8.13\transforms\e5afec46041432067ee7af1233e981d7\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.6.2] E:\andriod\.gradle\caches\8.13\transforms\e5afec46041432067ee7af1233e981d7\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <meta-data
+90-->[dev.rikka.shizuku:provider:13.1.5] E:\andriod\.gradle\caches\8.13\transforms\6acc1f10492a093adb49111ddfb90547\transformed\provider-13.1.5\AndroidManifest.xml:11:9-13:36
+91            android:name="moe.shizuku.client.V3_SUPPORT"
+91-->[dev.rikka.shizuku:provider:13.1.5] E:\andriod\.gradle\caches\8.13\transforms\6acc1f10492a093adb49111ddfb90547\transformed\provider-13.1.5\AndroidManifest.xml:12:13-57
+92            android:value="true" />
+92-->[dev.rikka.shizuku:provider:13.1.5] E:\andriod\.gradle\caches\8.13\transforms\6acc1f10492a093adb49111ddfb90547\transformed\provider-13.1.5\AndroidManifest.xml:13:13-33
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] E:\andriod\.gradle\caches\8.13\transforms\fd4b8d5383ed00fbeac00f6b890a05eb\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

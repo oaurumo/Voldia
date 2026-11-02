@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_bg_card.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_restart.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_restart.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_bg_pill.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/bg_pill.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_speaker_dark.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_speaker_dark.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_bg_ball.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/bg_ball.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/layout_floating_card.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/layout/floating_card.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_power.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_power.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_stat_volume.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_stat_volume.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_close.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/layout_floating_ball.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/layout/floating_ball.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_bg_stepper.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/bg_stepper.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/layout_activity_main.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_launcher_monochrome.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_speaker_white.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_speaker_white.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/layout_floating_power_dialog.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/layout/floating_power_dialog.xml"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-release-31:/drawable_ic_tile_volume.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-32:/drawable/ic_tile_volume.xml"
+    }
+]

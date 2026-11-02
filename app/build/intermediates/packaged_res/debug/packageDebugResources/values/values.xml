@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ball_background">#000000</color>
+    <color name="card_stroke">#1A000000</color>
+    <color name="card_surface">#FFFDFD</color>
+    <color name="card_text_primary">#111827</color>
+    <color name="card_text_secondary">#6B7280</color>
+    <color name="ic_launcher_background">#00ADF1</color>
+    <color name="voldia_blue">#00ADF1</color>
+    <string name="app_name">Voldia</string>
+    <string name="app_subtitle">轻点悬浮球，随时呼出系统音量面板</string>
+    <string name="appearance_card_width">卡片宽度</string>
+    <string name="appearance_card_width_value">%1$d%%</string>
+    <string name="appearance_opacity">透明度</string>
+    <string name="appearance_opacity_value">%1$d%%</string>
+    <string name="appearance_size">尺寸</string>
+    <string name="appearance_size_value">%1$d dp</string>
+    <string name="appearance_title">悬浮球外观</string>
+    <string name="btn_grant">去授权</string>
+    <string name="btn_reboot">重启</string>
+    <string name="btn_show_card">显示音量卡片</string>
+    <string name="btn_show_panel">打开系统音量面板</string>
+    <string name="btn_shutdown">关机</string>
+    <string name="btn_start">启动悬浮球</string>
+    <string name="btn_stop">停止悬浮球</string>
+    <string name="card_close">关闭</string>
+    <string name="card_hint">滑动调节媒体音量</string>
+    <string name="card_panel">系统音量面板</string>
+    <string name="card_shown">已显示音量卡片</string>
+    <string name="card_title">媒体音量</string>
+    <string name="confirm_reboot_message">设备将立即重启，所有未保存的数据可能丢失。确定要重启吗？</string>
+    <string name="confirm_reboot_title">确认重启</string>
+    <string name="confirm_shutdown_message">设备将立即关机，所有未保存的数据可能丢失。确定要关机吗？</string>
+    <string name="confirm_shutdown_title">确认关机</string>
+    <string name="footer">支持 Android 6.0 – 17 · com.oaurumo.voldia</string>
+    <string name="notification_action_card">音量卡片</string>
+    <string name="notification_action_stop">停止</string>
+    <string name="notification_channel_desc">保持悬浮球运行，随时呼出系统音量面板</string>
+    <string name="notification_channel_name">悬浮音量控制</string>
+    <string name="notification_text">单击悬浮球呼出系统音量面板，长按展开音量卡片</string>
+    <string name="notification_title">Voldia 正在运行</string>
+    <string name="overlay_add_failed">悬浮窗创建失败</string>
+    <string name="overlay_permission_missing">请先授予悬浮窗权限</string>
+    <string name="permission_denied">未授权，请允许“显示在其他应用上层”</string>
+    <string name="permission_granted">已授权，可以显示悬浮球</string>
+    <string name="permission_title">悬浮窗权限</string>
+    <string name="service_started">悬浮球已启动</string>
+    <string name="service_stopped">悬浮球已停止</string>
+    <string name="shizuku_exec_failed">执行失败：%1$s</string>
+    <string name="shizuku_not_running">Shizuku 未运行，请先启动 Shizuku 服务</string>
+    <string name="shizuku_permission_denied">未获得 Shizuku 授权，无法执行该操作</string>
+    <string name="tile_label">Voldia 音量</string>
+    <string name="tips">使用方式\n· 单击悬浮球：呼出系统音量面板\n· 长按悬浮球：展开 / 收起音量卡片\n· 拖动悬浮球：调整位置，松手自动贴边\n· 音量卡片：拖动滑块调节媒体音量\n· 快捷设置磁贴：在通知栏快捷设置中添加「Voldia 音量」</string>
+    <string name="volume_panel_failed">未能呼出系统音量面板，请稍后重试</string>
+    <string name="volume_percent">%1$d%%</string>
+    <style name="Theme.Voldia" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/voldia_blue</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#D5F1FF</item>
+        <item name="colorOnPrimaryContainer">#00202E</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

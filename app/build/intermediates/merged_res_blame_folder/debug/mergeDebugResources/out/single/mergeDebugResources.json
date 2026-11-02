@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\layout_floating_card.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\layout\\floating_card.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_power.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_power.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_bg_card.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_speaker_white.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_speaker_white.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_restart.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_restart.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\layout_floating_power_dialog.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\layout\\floating_power_dialog.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_close.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_launcher_monochrome.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_bg_pill.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\bg_pill.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_tile_volume.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_tile_volume.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_stat_volume.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_stat_volume.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_bg_stepper.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\bg_stepper.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.oaurumo.voldia.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.oaurumo.voldia.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_bg_ball.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\bg_ball.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\layout_floating_ball.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\layout\\floating_ball.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable_ic_speaker_dark.xml.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable\\ic_speaker_dark.xml"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-debug-31:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\andriod\\.gradle\\daemon\\8.13\\com.oaurumo.voldia.app-main-33:\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

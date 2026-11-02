@@ -1,0 +1,4 @@
+#Mon Nov 02 16:50:09 CST 2026
+base.0=E\:\\andriod\\AndroidStudioProjects\\Voldia\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

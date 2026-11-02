@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.oaurumo.voldia.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="attr[colorSurface(R),colorOnSurface(R),colorOnSurfaceVariant(R),colorSurfaceContainer(R),colorOutlineVariant(R)],color[voldia_blue(U),card_surface(U),card_stroke(U),card_text_secondary(U),card_text_primary(U),ic_launcher_background(U)],drawable[ic_tile_volume(U),bg_ball(U),bg_card(U),bg_pill(U),ic_close(U),ic_launcher_monochrome(U),ic_speaker_dark(U),ic_speaker_white(U),ic_stat_volume(U),ic_launcher_foreground(U)],id[root(U),ivLogo(D),tvTitle(D),tvSubtitle(D),tvPermissionStatus(U),btnGrant(U),btnStart(U),btnStop(U),btnShowCard(U),btnShowPanel(U),tvTips(D),tvFooter(D),ballRoot(D),ballIcon(D),cardRoot(D),card_header(U),tv_card_title(D),tv_percent(U),btn_close(U),seek_volume(U),btn_panel(U)],layout[activity_main(U),floating_ball(U),floating_card(U)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U),tile_label(U),app_subtitle(U),permission_title(U),permission_denied(U),btn_grant(U),btn_start(U),btn_stop(U),btn_show_card(U),btn_show_panel(U),tips(U),footer(U),card_title(U),card_close(U),card_hint(U),card_panel(U),permission_granted(U),notification_channel_name(U),notification_channel_desc(U),notification_title(U),notification_text(U),notification_action_card(U),notification_action_stop(U),volume_percent(U),overlay_permission_missing(U),overlay_add_failed(U),volume_panel_failed(U),service_started(U),service_stopped(U),card_shown(U)],style[Theme_Voldia(U),Widget_Material3_Button_OutlinedButton(R),Theme_Material3_DayNight_NoActionBar(R)];c^5,d^6^7,f^8,11^5,2a^0^2f^2d^1^31^2^3^4^32^33^34^4e^35^36^37^38^39^3a,2b^c^2f^12,2c^d^3b^11^9^5^3c^f^3d^8^e^3e,2d^a^14^10,2e^a^14^10,4d^4f^5;;;"/>
+    </map>
+
+</incidents>
