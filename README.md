@@ -4,7 +4,7 @@
 
 轻点悬浮球，随时呼出系统音量面板。
 
-Voldia 是一个轻量的 Android 悬浮音量控制工具：在屏幕上常驻一个可拖动的悬浮球，单击呼出系统音量面板，长按展开音量卡片直接拖动调节媒体音量；卡片与主界面还提供基于 Shizuku 的关机 / 重启功能。
+Voldia 是一个轻量的 Android 悬浮音量控制工具：在屏幕上常驻一个可拖动的悬浮球，单击呼出系统音量面板，长按展开音量卡片直接拖动调节媒体音量；卡片与主界面还提供基于 Shizuku 的关机 / 重启功能。voldia主要用于辅助解决音量与关机实体按键异常的问题。
 
 ![minSdk](https://img.shields.io/badge/minSdk-23-blue)
 ![targetSdk](https://img.shields.io/badge/targetSdk-37-blue)
